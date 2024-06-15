@@ -18,9 +18,12 @@ Navigate the lever's movement using the left and right arrow keys. Exit the game
 
 Embark on an exhilarating journey through 'Apple Harvest,' where your skills as an orchardist will be put to the ultimate test!
 
+
 #Requirements
 Python 3.x
 Pygame
+
+
 #How to Play
 Clone this repository.
 Install the dependencies using pip install pygame.
