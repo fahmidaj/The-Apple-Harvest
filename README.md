@@ -10,7 +10,8 @@ Lever Control: Direct the lever's horizontal movements to intercept falling appl
 Strategic Decision-Making: Make split-second decisions to optimize your apple catching strategy, distinguishing between good and bad apples.
 Scoring Challenge: Accumulate points for each successfully caught green apple while managing the risk of catching red apples that penalize your score.
 Time Limit: Race against the clock with a finite duration to achieve the highest possible score.
-Objective:
+
+#Objective:
 Demonstrate your agility and strategic thinking by harvesting as many green apples as possible while avoiding the detrimental impact of red apples. Adapt your approach based on the lever's speed and the unpredictable trajectories of the falling apples.
 
 #Controls:
@@ -21,12 +22,16 @@ Embark on an exhilarating journey through 'Apple Harvest,' where your skills as 
 
 #Requirements
 Python 3.x
+
 Pygame
 
 
 #How to Play
+
 Clone this repository.
+
 Install the dependencies using pip install pygame.
+
 Run the game with python file_name.py.
 
 
