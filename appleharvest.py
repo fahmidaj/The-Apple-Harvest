@@ -89,13 +89,9 @@ def find_apple_in_side_laser_range(y_pos, apples):
 
     return closest_apple
 
-########################################################################
-# 
-# 
-# Your code goes in this section below
+
 # Avoid acessing global variables.
-# 
-########################################################################
+
 
 # World model should contain data and methods 
 # to represent and predict how the world works
@@ -169,13 +165,7 @@ class Agent:
                 return max(lever_pos - self.max_lever_displacement, 0)
         return lever_pos
 
-########################################################################
-# 
-# 
 # Main game loop
-# 
-# 
-########################################################################
 
 wm = WorldModel()
 agent = Agent(wm, max_lever_displacement, screen_width)
@@ -269,8 +259,6 @@ while running:
 
     # Check if the game is over
     elapsed_time = (pygame.time.get_ticks() - game_start_time) / 1000
-    #if elapsed_time >= game_duration:
-    #    running = False
 
     decisions_count += 1  
     if decisions_count >= 3441: # Aproximadamente dois minutos
